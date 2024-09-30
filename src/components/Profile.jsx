@@ -1,5 +1,7 @@
 import React from "react";
 
+// Wednesday Sept 25.
+
 function Profile({ name }) {
   return (
     <>

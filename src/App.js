@@ -1,6 +1,7 @@
 import Counter from "./components/Counter";
 import Profile from "./components/Profile";
 import "./styles/App.css";
+import { FetchData } from "./components/FetchData";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>Hello!</p>
         <Profile name="Lexi" />
         <Counter />
+        <FetchData />
       </header>
     </div>
   );

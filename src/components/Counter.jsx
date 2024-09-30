@@ -1,5 +1,7 @@
 import React, { useReducer } from "react";
 
+//Friday Sept 27.
+
 const initialialState = { count: 0 };
 function reducer(state, action) {
   switch (action.type) {
